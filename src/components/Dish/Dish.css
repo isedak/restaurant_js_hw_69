@@ -1,0 +1,40 @@
+.Dish-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Dish-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-box {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    overflow: hidden;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Dish-name {
+    color: gray;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+.btn-add-to-cart {
+    border: 1px solid rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50);
+}
+
+.btn-add-to-cart:hover {
+    background-color: black;
+    border: 1px solid black;
+}

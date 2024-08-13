@@ -1,0 +1,1 @@
+export const apiUrl = 'https://homework-69-dce9e-default-rtdb.firebaseio.com/';

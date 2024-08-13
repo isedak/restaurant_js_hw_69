@@ -1,0 +1,74 @@
+.Cart-title {
+    color: gray;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.Cart-content {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    padding: 15px 5px 15px 0px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+
+.Cart-bottom-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.Cart-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Cart-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Cart-subtitle {
+    color: gray;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.Cart-subtitle-black {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.Cart-simple-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.btn-place-order {
+    border: 1px solid rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50);
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+.btn-place-order:hover {
+    background-color: black;
+    border: 1px solid black;
+}
